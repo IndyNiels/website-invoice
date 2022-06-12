@@ -1,0 +1,115 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  
+  html  {
+      font-family: "Roboto",sans-serif;
+  }
+  
+  
+   
+
+  p,h3,a {
+      margin:0;
+      padding:0;
+      vertical-align: bottom;
+        line-height: 1;
+  }
+
+section {
+   display: grid;
+   justify-content: center;
+}
+
+body{
+    background-color: rgb(243, 244, 246);
+}
+
+
+.panel{
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding:10px;
+}
+
+
+
+.line {
+    display: grid; 
+    grid-template-columns: 4fr 1fr 1fr 1fr 40px;
+    grid-gap: 6px; 
+    height: 40px;
+}
+
+.line-margin {
+    margin-top: 3px;
+}
+
+.line-heading {
+    align-content: center;
+}
+
+
+h3 {
+ font-size: 14px;
+ color: #777;
+ font-weight: 400;
+ letter-spacing: 0.05em;
+
+ 
+}
+
+
+
+.product-cell {
+ display:flex;
+
+}
+
+.dropdown {
+    height:15px;
+    width: auto;
+}
+
+select {
+    width:100%;
+}
+
+input {
+    width: 100%;
+    border-radius: 4px;
+    
+    
+   
+}
+#add-row {
+    font-size: 30px;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    align-self: center;
+}
+
+a:hover {
+    color:black;
+}
+
+select {
+    background-color: white;
+}
+
+option {
+    border-bottom: 2px;
+}
+
+
+.a-margin {
+    margin-left: 5px;
+}
+
+
